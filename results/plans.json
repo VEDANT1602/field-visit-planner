@@ -1,0 +1,3611 @@
+[
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 55,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 75,
+          "site": "site-4",
+          "start": 55
+        },
+        {
+          "arrival": 94,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 124,
+          "site": "site-3",
+          "start": 94
+        },
+        {
+          "arrival": 135,
+          "cost_to_date": 8,
+          "day": 0,
+          "finish": 165,
+          "site": "site-6",
+          "start": 135
+        },
+        {
+          "arrival": 16,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 46,
+          "site": "site-2",
+          "start": 16
+        },
+        {
+          "arrival": 63,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 105,
+          "site": "site-0",
+          "start": 75
+        },
+        {
+          "arrival": 133,
+          "cost_to_date": 7,
+          "day": 1,
+          "finish": 163,
+          "site": "site-5",
+          "start": 133
+        }
+      ],
+      "utility": 37,
+      "visits": 6
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-4",
+          "site-3",
+          "site-6"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-2",
+          "site-0",
+          "site-5"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 55,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 75,
+          "site": "site-4",
+          "start": 55
+        },
+        {
+          "arrival": 104,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 134,
+          "site": "site-0",
+          "start": 104
+        },
+        {
+          "arrival": 156,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 186,
+          "site": "site-6",
+          "start": 156
+        },
+        {
+          "arrival": 49,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 135,
+          "site": "site-5",
+          "start": 105
+        }
+      ],
+      "utility": 31,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-4",
+          "site-0",
+          "site-6"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-5"
+        ]
+      }
+    ],
+    "scenario": "fixture-00"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 37,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 67,
+          "site": "site-1",
+          "start": 37
+        },
+        {
+          "arrival": 82,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 112,
+          "site": "site-5",
+          "start": 82
+        },
+        {
+          "arrival": 117,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 137,
+          "site": "site-6",
+          "start": 117
+        },
+        {
+          "arrival": 51,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 71,
+          "site": "site-0",
+          "start": 51
+        },
+        {
+          "arrival": 95,
+          "cost_to_date": 6,
+          "day": 1,
+          "finish": 115,
+          "site": "site-2",
+          "start": 95
+        },
+        {
+          "arrival": 118,
+          "cost_to_date": 7,
+          "day": 1,
+          "finish": 138,
+          "site": "site-4",
+          "start": 118
+        }
+      ],
+      "utility": 60,
+      "visits": 6
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-1",
+          "site-5",
+          "site-6"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-0",
+          "site-2",
+          "site-4"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 50,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 80,
+          "site": "site-5",
+          "start": 50
+        },
+        {
+          "arrival": 85,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 110,
+          "site": "site-6",
+          "start": 90
+        },
+        {
+          "arrival": 51,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 71,
+          "site": "site-0",
+          "start": 51
+        },
+        {
+          "arrival": 98,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 118,
+          "site": "site-4",
+          "start": 98
+        },
+        {
+          "arrival": 121,
+          "cost_to_date": 7,
+          "day": 1,
+          "finish": 141,
+          "site": "site-2",
+          "start": 121
+        }
+      ],
+      "utility": 54,
+      "visits": 5
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-5",
+          "site-6"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-0",
+          "site-4",
+          "site-2"
+        ]
+      }
+    ],
+    "scenario": "fixture-01"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 21,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 51,
+          "site": "site-1",
+          "start": 21
+        },
+        {
+          "arrival": 78,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 98,
+          "site": "site-6",
+          "start": 78
+        },
+        {
+          "arrival": 130,
+          "cost_to_date": 8,
+          "day": 0,
+          "finish": 160,
+          "site": "site-4",
+          "start": 130
+        },
+        {
+          "arrival": 51,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 71,
+          "site": "site-2",
+          "start": 51
+        },
+        {
+          "arrival": 88,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 133,
+          "site": "site-5",
+          "start": 88
+        },
+        {
+          "arrival": 139,
+          "cost_to_date": 6,
+          "day": 1,
+          "finish": 169,
+          "site": "site-0",
+          "start": 139
+        }
+      ],
+      "utility": 37,
+      "visits": 6
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-1",
+          "site-6",
+          "site-4"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-2",
+          "site-5",
+          "site-0"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 51,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 80,
+          "site": "site-2",
+          "start": 60
+        },
+        {
+          "arrival": 89,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 109,
+          "site": "site-6",
+          "start": 89
+        },
+        {
+          "arrival": 141,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 171,
+          "site": "site-4",
+          "start": 141
+        },
+        {
+          "arrival": 21,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 135,
+          "site": "site-1",
+          "start": 105
+        },
+        {
+          "arrival": 154,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 184,
+          "site": "site-3",
+          "start": 154
+        }
+      ],
+      "utility": 31,
+      "visits": 5
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-2",
+          "site-6",
+          "site-4"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-1",
+          "site-3"
+        ]
+      }
+    ],
+    "scenario": "fixture-02"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 33,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 53,
+          "site": "site-6",
+          "start": 33
+        },
+        {
+          "arrival": 70,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 90,
+          "site": "site-4",
+          "start": 70
+        },
+        {
+          "arrival": 112,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 142,
+          "site": "site-1",
+          "start": 112
+        },
+        {
+          "arrival": 35,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 90,
+          "site": "site-2",
+          "start": 45
+        },
+        {
+          "arrival": 97,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 117,
+          "site": "site-3",
+          "start": 97
+        },
+        {
+          "arrival": 144,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 189,
+          "site": "site-0",
+          "start": 144
+        }
+      ],
+      "utility": 47,
+      "visits": 6
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-6",
+          "site-4",
+          "site-1"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-2",
+          "site-3",
+          "site-0"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 35,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 80,
+          "site": "site-2",
+          "start": 35
+        },
+        {
+          "arrival": 86,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 135,
+          "site": "site-1",
+          "start": 105
+        },
+        {
+          "arrival": 36,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 150,
+          "site": "site-0",
+          "start": 105
+        }
+      ],
+      "utility": 32,
+      "visits": 3
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-2",
+          "site-1"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-0"
+        ]
+      }
+    ],
+    "scenario": "fixture-03"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 42,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 90,
+          "site": "site-6",
+          "start": 45
+        },
+        {
+          "arrival": 145,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 175,
+          "site": "site-3",
+          "start": 145
+        },
+        {
+          "arrival": 42,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 72,
+          "site": "site-1",
+          "start": 42
+        },
+        {
+          "arrival": 95,
+          "cost_to_date": 6,
+          "day": 1,
+          "finish": 125,
+          "site": "site-5",
+          "start": 95
+        }
+      ],
+      "utility": 23,
+      "visits": 4
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-6",
+          "site-3"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-1",
+          "site-5"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 25,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 75,
+          "site": "site-5",
+          "start": 45
+        },
+        {
+          "arrival": 110,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 140,
+          "site": "site-3",
+          "start": 110
+        },
+        {
+          "arrival": 42,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 72,
+          "site": "site-1",
+          "start": 42
+        },
+        {
+          "arrival": 95,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 115,
+          "site": "site-0",
+          "start": 95
+        }
+      ],
+      "utility": 21,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-5",
+          "site-3"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-1",
+          "site-0"
+        ]
+      }
+    ],
+    "scenario": "fixture-04"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 28,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 73,
+          "site": "site-6",
+          "start": 28
+        },
+        {
+          "arrival": 101,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 131,
+          "site": "site-5",
+          "start": 101
+        },
+        {
+          "arrival": 161,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 181,
+          "site": "site-1",
+          "start": 161
+        },
+        {
+          "arrival": 58,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 88,
+          "site": "site-0",
+          "start": 58
+        },
+        {
+          "arrival": 97,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 125,
+          "site": "site-3",
+          "start": 105
+        },
+        {
+          "arrival": 147,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 167,
+          "site": "site-2",
+          "start": 147
+        }
+      ],
+      "utility": 54,
+      "visits": 6
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-6",
+          "site-5",
+          "site-1"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-0",
+          "site-3",
+          "site-2"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 56,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 76,
+          "site": "site-3",
+          "start": 56
+        },
+        {
+          "arrival": 91,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 121,
+          "site": "site-5",
+          "start": 91
+        },
+        {
+          "arrival": 151,
+          "cost_to_date": 8,
+          "day": 0,
+          "finish": 171,
+          "site": "site-1",
+          "start": 151
+        },
+        {
+          "arrival": 28,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 105,
+          "site": "site-6",
+          "start": 60
+        },
+        {
+          "arrival": 124,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 144,
+          "site": "site-2",
+          "start": 124
+        }
+      ],
+      "utility": 50,
+      "visits": 5
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-3",
+          "site-5",
+          "site-1"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-6",
+          "site-2"
+        ]
+      }
+    ],
+    "scenario": "fixture-05"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 58,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 78,
+          "site": "site-4",
+          "start": 58
+        },
+        {
+          "arrival": 90,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 120,
+          "site": "site-6",
+          "start": 90
+        },
+        {
+          "arrival": 139,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 159,
+          "site": "site-0",
+          "start": 139
+        },
+        {
+          "arrival": 43,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 105,
+          "site": "site-5",
+          "start": 60
+        }
+      ],
+      "utility": 36,
+      "visits": 4
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-4",
+          "site-6",
+          "site-0"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-5"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 43,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 88,
+          "site": "site-5",
+          "start": 43
+        },
+        {
+          "arrival": 110,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 130,
+          "site": "site-4",
+          "start": 110
+        },
+        {
+          "arrival": 39,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 110,
+          "site": "site-0",
+          "start": 90
+        }
+      ],
+      "utility": 24,
+      "visits": 3
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-5",
+          "site-4"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-0"
+        ]
+      }
+    ],
+    "scenario": "fixture-06"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 38,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 58,
+          "site": "site-3",
+          "start": 38
+        },
+        {
+          "arrival": 61,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 91,
+          "site": "site-1",
+          "start": 61
+        },
+        {
+          "arrival": 111,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 141,
+          "site": "site-6",
+          "start": 111
+        },
+        {
+          "arrival": 33,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 53,
+          "site": "site-5",
+          "start": 33
+        },
+        {
+          "arrival": 83,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 128,
+          "site": "site-2",
+          "start": 83
+        }
+      ],
+      "utility": 52,
+      "visits": 5
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-3",
+          "site-1",
+          "site-6"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-5",
+          "site-2"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 38,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 58,
+          "site": "site-3",
+          "start": 38
+        },
+        {
+          "arrival": 81,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 135,
+          "site": "site-6",
+          "start": 105
+        },
+        {
+          "arrival": 33,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 53,
+          "site": "site-5",
+          "start": 33
+        },
+        {
+          "arrival": 83,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 128,
+          "site": "site-2",
+          "start": 83
+        }
+      ],
+      "utility": 44,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-3",
+          "site-6"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-5",
+          "site-2"
+        ]
+      }
+    ],
+    "scenario": "fixture-07"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 35,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 90,
+          "site": "site-3",
+          "start": 45
+        },
+        {
+          "arrival": 113,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 158,
+          "site": "site-2",
+          "start": 113
+        },
+        {
+          "arrival": 56,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 86,
+          "site": "site-4",
+          "start": 56
+        },
+        {
+          "arrival": 131,
+          "cost_to_date": 6,
+          "day": 1,
+          "finish": 176,
+          "site": "site-0",
+          "start": 131
+        }
+      ],
+      "utility": 33,
+      "visits": 4
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-3",
+          "site-2"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-4",
+          "site-0"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 34,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 150,
+          "site": "site-2",
+          "start": 105
+        },
+        {
+          "arrival": 56,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 86,
+          "site": "site-4",
+          "start": 56
+        },
+        {
+          "arrival": 110,
+          "cost_to_date": 6,
+          "day": 1,
+          "finish": 155,
+          "site": "site-3",
+          "start": 110
+        }
+      ],
+      "utility": 29,
+      "visits": 3
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-2"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-4",
+          "site-3"
+        ]
+      }
+    ],
+    "scenario": "fixture-08"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 22,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 67,
+          "site": "site-1",
+          "start": 22
+        },
+        {
+          "arrival": 91,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 136,
+          "site": "site-4",
+          "start": 91
+        },
+        {
+          "arrival": 54,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 74,
+          "site": "site-2",
+          "start": 54
+        },
+        {
+          "arrival": 99,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 129,
+          "site": "site-6",
+          "start": 99
+        }
+      ],
+      "utility": 24,
+      "visits": 4
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-1",
+          "site-4"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-2",
+          "site-6"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 22,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 67,
+          "site": "site-1",
+          "start": 22
+        },
+        {
+          "arrival": 101,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 121,
+          "site": "site-2",
+          "start": 101
+        },
+        {
+          "arrival": 47,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 90,
+          "site": "site-6",
+          "start": 60
+        }
+      ],
+      "utility": 20,
+      "visits": 3
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-1",
+          "site-2"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-6"
+        ]
+      }
+    ],
+    "scenario": "fixture-09"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 30,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 75,
+          "site": "site-0",
+          "start": 30
+        },
+        {
+          "arrival": 100,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 130,
+          "site": "site-5",
+          "start": 100
+        },
+        {
+          "arrival": 154,
+          "cost_to_date": 8,
+          "day": 0,
+          "finish": 174,
+          "site": "site-3",
+          "start": 154
+        },
+        {
+          "arrival": 8,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 75,
+          "site": "site-6",
+          "start": 30
+        },
+        {
+          "arrival": 111,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 131,
+          "site": "site-1",
+          "start": 111
+        }
+      ],
+      "utility": 46,
+      "visits": 5
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-0",
+          "site-5",
+          "site-3"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-6",
+          "site-1"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 8,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 75,
+          "site": "site-6",
+          "start": 30
+        },
+        {
+          "arrival": 95,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 115,
+          "site": "site-3",
+          "start": 95
+        },
+        {
+          "arrival": 30,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 150,
+          "site": "site-0",
+          "start": 105
+        },
+        {
+          "arrival": 174,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 194,
+          "site": "site-1",
+          "start": 174
+        }
+      ],
+      "utility": 38,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-6",
+          "site-3"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-0",
+          "site-1"
+        ]
+      }
+    ],
+    "scenario": "fixture-10"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 31,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 76,
+          "site": "site-0",
+          "start": 31
+        },
+        {
+          "arrival": 95,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 135,
+          "site": "site-5",
+          "start": 105
+        },
+        {
+          "arrival": 167,
+          "cost_to_date": 8,
+          "day": 0,
+          "finish": 187,
+          "site": "site-6",
+          "start": 167
+        },
+        {
+          "arrival": 13,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 60,
+          "site": "site-3",
+          "start": 15
+        },
+        {
+          "arrival": 82,
+          "cost_to_date": 6,
+          "day": 1,
+          "finish": 112,
+          "site": "site-2",
+          "start": 82
+        },
+        {
+          "arrival": 138,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 168,
+          "site": "site-1",
+          "start": 138
+        }
+      ],
+      "utility": 31,
+      "visits": 6
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-0",
+          "site-5",
+          "site-6"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-3",
+          "site-2",
+          "site-1"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 38,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 125,
+          "site": "site-6",
+          "start": 105
+        },
+        {
+          "arrival": 133,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 163,
+          "site": "site-2",
+          "start": 133
+        },
+        {
+          "arrival": 13,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 60,
+          "site": "site-3",
+          "start": 15
+        },
+        {
+          "arrival": 100,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 130,
+          "site": "site-1",
+          "start": 100
+        }
+      ],
+      "utility": 20,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-6",
+          "site-2"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-3",
+          "site-1"
+        ]
+      }
+    ],
+    "scenario": "fixture-11"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 53,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 98,
+          "site": "site-0",
+          "start": 53
+        },
+        {
+          "arrival": 113,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 158,
+          "site": "site-1",
+          "start": 113
+        },
+        {
+          "arrival": 48,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 68,
+          "site": "site-5",
+          "start": 48
+        },
+        {
+          "arrival": 80,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 150,
+          "site": "site-4",
+          "start": 105
+        }
+      ],
+      "utility": 41,
+      "visits": 4
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-0",
+          "site-1"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-5",
+          "site-4"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 53,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 98,
+          "site": "site-0",
+          "start": 53
+        },
+        {
+          "arrival": 113,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 158,
+          "site": "site-1",
+          "start": 113
+        },
+        {
+          "arrival": 48,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 68,
+          "site": "site-5",
+          "start": 48
+        },
+        {
+          "arrival": 80,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 150,
+          "site": "site-4",
+          "start": 105
+        }
+      ],
+      "utility": 41,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-0",
+          "site-1"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-5",
+          "site-4"
+        ]
+      }
+    ],
+    "scenario": "fixture-12"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 32,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 52,
+          "site": "site-6",
+          "start": 32
+        },
+        {
+          "arrival": 72,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 102,
+          "site": "site-1",
+          "start": 72
+        },
+        {
+          "arrival": 19,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 50,
+          "site": "site-4",
+          "start": 30
+        },
+        {
+          "arrival": 61,
+          "cost_to_date": 7,
+          "day": 1,
+          "finish": 81,
+          "site": "site-5",
+          "start": 61
+        },
+        {
+          "arrival": 102,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 122,
+          "site": "site-2",
+          "start": 102
+        }
+      ],
+      "utility": 42,
+      "visits": 5
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-6",
+          "site-1"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-4",
+          "site-5",
+          "site-2"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 32,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 52,
+          "site": "site-6",
+          "start": 32
+        },
+        {
+          "arrival": 72,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 102,
+          "site": "site-1",
+          "start": 72
+        },
+        {
+          "arrival": 29,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 65,
+          "site": "site-5",
+          "start": 45
+        },
+        {
+          "arrival": 86,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 106,
+          "site": "site-2",
+          "start": 86
+        },
+        {
+          "arrival": 118,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 138,
+          "site": "site-4",
+          "start": 118
+        }
+      ],
+      "utility": 42,
+      "visits": 5
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-6",
+          "site-1"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-5",
+          "site-2",
+          "site-4"
+        ]
+      }
+    ],
+    "scenario": "fixture-13"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 14,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 150,
+          "site": "site-6",
+          "start": 105
+        },
+        {
+          "arrival": 159,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 189,
+          "site": "site-3",
+          "start": 159
+        },
+        {
+          "arrival": 52,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 135,
+          "site": "site-0",
+          "start": 90
+        },
+        {
+          "arrival": 144,
+          "cost_to_date": 7,
+          "day": 1,
+          "finish": 174,
+          "site": "site-2",
+          "start": 144
+        }
+      ],
+      "utility": 44,
+      "visits": 4
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-6",
+          "site-3"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-0",
+          "site-2"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 52,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 120,
+          "site": "site-0",
+          "start": 75
+        },
+        {
+          "arrival": 168,
+          "cost_to_date": 8,
+          "day": 0,
+          "finish": 198,
+          "site": "site-3",
+          "start": 168
+        },
+        {
+          "arrival": 14,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 105,
+          "site": "site-6",
+          "start": 60
+        },
+        {
+          "arrival": 136,
+          "cost_to_date": 6,
+          "day": 1,
+          "finish": 166,
+          "site": "site-2",
+          "start": 136
+        }
+      ],
+      "utility": 44,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-0",
+          "site-3"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-6",
+          "site-2"
+        ]
+      }
+    ],
+    "scenario": "fixture-14"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 32,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 52,
+          "site": "site-1",
+          "start": 32
+        },
+        {
+          "arrival": 66,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 96,
+          "site": "site-4",
+          "start": 66
+        },
+        {
+          "arrival": 50,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 90,
+          "site": "site-6",
+          "start": 60
+        },
+        {
+          "arrival": 124,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 144,
+          "site": "site-5",
+          "start": 124
+        },
+        {
+          "arrival": 166,
+          "cost_to_date": 7,
+          "day": 1,
+          "finish": 196,
+          "site": "site-3",
+          "start": 166
+        }
+      ],
+      "utility": 45,
+      "visits": 5
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-1",
+          "site-4"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-6",
+          "site-5",
+          "site-3"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 44,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 74,
+          "site": "site-4",
+          "start": 44
+        },
+        {
+          "arrival": 103,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 133,
+          "site": "site-3",
+          "start": 103
+        },
+        {
+          "arrival": 32,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 80,
+          "site": "site-1",
+          "start": 60
+        },
+        {
+          "arrival": 120,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 140,
+          "site": "site-5",
+          "start": 120
+        }
+      ],
+      "utility": 36,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-4",
+          "site-3"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-1",
+          "site-5"
+        ]
+      }
+    ],
+    "scenario": "fixture-15"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 29,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 75,
+          "site": "site-0",
+          "start": 30
+        },
+        {
+          "arrival": 109,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 139,
+          "site": "site-4",
+          "start": 109
+        },
+        {
+          "arrival": 16,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 46,
+          "site": "site-2",
+          "start": 16
+        },
+        {
+          "arrival": 79,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 124,
+          "site": "site-5",
+          "start": 79
+        }
+      ],
+      "utility": 30,
+      "visits": 4
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-0",
+          "site-4"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-2",
+          "site-5"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 29,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 75,
+          "site": "site-0",
+          "start": 30
+        },
+        {
+          "arrival": 109,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 139,
+          "site": "site-4",
+          "start": 109
+        },
+        {
+          "arrival": 46,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 120,
+          "site": "site-5",
+          "start": 75
+        }
+      ],
+      "utility": 25,
+      "visits": 3
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-0",
+          "site-4"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-5"
+        ]
+      }
+    ],
+    "scenario": "fixture-16"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 42,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 87,
+          "site": "site-0",
+          "start": 42
+        },
+        {
+          "arrival": 96,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 126,
+          "site": "site-3",
+          "start": 96
+        },
+        {
+          "arrival": 24,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 75,
+          "site": "site-4",
+          "start": 30
+        },
+        {
+          "arrival": 99,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 144,
+          "site": "site-1",
+          "start": 99
+        },
+        {
+          "arrival": 165,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 185,
+          "site": "site-5",
+          "start": 165
+        }
+      ],
+      "utility": 44,
+      "visits": 5
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-0",
+          "site-3"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-4",
+          "site-1",
+          "site-5"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 24,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 75,
+          "site": "site-4",
+          "start": 30
+        },
+        {
+          "arrival": 88,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 118,
+          "site": "site-3",
+          "start": 88
+        },
+        {
+          "arrival": 51,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 110,
+          "site": "site-5",
+          "start": 90
+        }
+      ],
+      "utility": 29,
+      "visits": 3
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-4",
+          "site-3"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-5"
+        ]
+      }
+    ],
+    "scenario": "fixture-17"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 17,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 60,
+          "site": "site-4",
+          "start": 30
+        },
+        {
+          "arrival": 84,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 129,
+          "site": "site-1",
+          "start": 84
+        },
+        {
+          "arrival": 145,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 175,
+          "site": "site-6",
+          "start": 145
+        },
+        {
+          "arrival": 42,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 72,
+          "site": "site-3",
+          "start": 42
+        },
+        {
+          "arrival": 105,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 125,
+          "site": "site-0",
+          "start": 105
+        },
+        {
+          "arrival": 142,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 172,
+          "site": "site-2",
+          "start": 142
+        }
+      ],
+      "utility": 51,
+      "visits": 6
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-4",
+          "site-1",
+          "site-6"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-3",
+          "site-0",
+          "site-2"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 18,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 95,
+          "site": "site-0",
+          "start": 75
+        },
+        {
+          "arrival": 112,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 142,
+          "site": "site-2",
+          "start": 112
+        },
+        {
+          "arrival": 40,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 85,
+          "site": "site-1",
+          "start": 40
+        },
+        {
+          "arrival": 106,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 136,
+          "site": "site-3",
+          "start": 106
+        }
+      ],
+      "utility": 34,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-0",
+          "site-2"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-1",
+          "site-3"
+        ]
+      }
+    ],
+    "scenario": "fixture-18"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 2,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 22,
+          "site": "site-4",
+          "start": 2
+        },
+        {
+          "arrival": 54,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 74,
+          "site": "site-5",
+          "start": 54
+        },
+        {
+          "arrival": 113,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 133,
+          "site": "site-6",
+          "start": 113
+        },
+        {
+          "arrival": 51,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 71,
+          "site": "site-1",
+          "start": 51
+        },
+        {
+          "arrival": 112,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 157,
+          "site": "site-0",
+          "start": 112
+        }
+      ],
+      "utility": 38,
+      "visits": 5
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-4",
+          "site-5",
+          "site-6"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-1",
+          "site-0"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 51,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 110,
+          "site": "site-1",
+          "start": 90
+        },
+        {
+          "arrival": 126,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 146,
+          "site": "site-6",
+          "start": 126
+        },
+        {
+          "arrival": 2,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 95,
+          "site": "site-4",
+          "start": 75
+        },
+        {
+          "arrival": 114,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 144,
+          "site": "site-2",
+          "start": 114
+        }
+      ],
+      "utility": 27,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-1",
+          "site-6"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-4",
+          "site-2"
+        ]
+      }
+    ],
+    "scenario": "fixture-19"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 25,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 65,
+          "site": "site-5",
+          "start": 45
+        },
+        {
+          "arrival": 81,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 111,
+          "site": "site-0",
+          "start": 81
+        },
+        {
+          "arrival": 119,
+          "cost_to_date": 8,
+          "day": 0,
+          "finish": 164,
+          "site": "site-1",
+          "start": 119
+        },
+        {
+          "arrival": 18,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 75,
+          "site": "site-3",
+          "start": 30
+        },
+        {
+          "arrival": 86,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 135,
+          "site": "site-2",
+          "start": 90
+        },
+        {
+          "arrival": 144,
+          "cost_to_date": 6,
+          "day": 1,
+          "finish": 174,
+          "site": "site-6",
+          "start": 144
+        }
+      ],
+      "utility": 45,
+      "visits": 6
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-5",
+          "site-0",
+          "site-1"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-3",
+          "site-2",
+          "site-6"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 39,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 90,
+          "site": "site-1",
+          "start": 45
+        },
+        {
+          "arrival": 102,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 147,
+          "site": "site-2",
+          "start": 102
+        },
+        {
+          "arrival": 23,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 120,
+          "site": "site-6",
+          "start": 90
+        },
+        {
+          "arrival": 140,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 170,
+          "site": "site-4",
+          "start": 140
+        }
+      ],
+      "utility": 35,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-1",
+          "site-2"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-6",
+          "site-4"
+        ]
+      }
+    ],
+    "scenario": "fixture-20"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 56,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 86,
+          "site": "site-0",
+          "start": 56
+        },
+        {
+          "arrival": 121,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 151,
+          "site": "site-3",
+          "start": 121
+        },
+        {
+          "arrival": 20,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 95,
+          "site": "site-6",
+          "start": 75
+        },
+        {
+          "arrival": 109,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 129,
+          "site": "site-4",
+          "start": 109
+        },
+        {
+          "arrival": 148,
+          "cost_to_date": 7,
+          "day": 1,
+          "finish": 168,
+          "site": "site-5",
+          "start": 148
+        }
+      ],
+      "utility": 35,
+      "visits": 5
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-0",
+          "site-3"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-6",
+          "site-4",
+          "site-5"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 56,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 86,
+          "site": "site-0",
+          "start": 56
+        },
+        {
+          "arrival": 121,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 151,
+          "site": "site-3",
+          "start": 121
+        },
+        {
+          "arrival": 171,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 191,
+          "site": "site-6",
+          "start": 171
+        },
+        {
+          "arrival": 31,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 125,
+          "site": "site-4",
+          "start": 105
+        },
+        {
+          "arrival": 144,
+          "cost_to_date": 6,
+          "day": 1,
+          "finish": 164,
+          "site": "site-5",
+          "start": 144
+        }
+      ],
+      "utility": 35,
+      "visits": 5
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-0",
+          "site-3",
+          "site-6"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-4",
+          "site-5"
+        ]
+      }
+    ],
+    "scenario": "fixture-21"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 5,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 50,
+          "site": "site-3",
+          "start": 30
+        },
+        {
+          "arrival": 96,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 125,
+          "site": "site-1",
+          "start": 105
+        },
+        {
+          "arrival": 154,
+          "cost_to_date": 8,
+          "day": 0,
+          "finish": 184,
+          "site": "site-4",
+          "start": 154
+        },
+        {
+          "arrival": 17,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 37,
+          "site": "site-2",
+          "start": 17
+        },
+        {
+          "arrival": 53,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 90,
+          "site": "site-0",
+          "start": 60
+        }
+      ],
+      "utility": 41,
+      "visits": 5
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-3",
+          "site-1",
+          "site-4"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-2",
+          "site-0"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 5,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 50,
+          "site": "site-3",
+          "start": 30
+        },
+        {
+          "arrival": 63,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 125,
+          "site": "site-2",
+          "start": 105
+        },
+        {
+          "arrival": 159,
+          "cost_to_date": 8,
+          "day": 0,
+          "finish": 179,
+          "site": "site-1",
+          "start": 159
+        },
+        {
+          "arrival": 30,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 90,
+          "site": "site-0",
+          "start": 60
+        },
+        {
+          "arrival": 114,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 159,
+          "site": "site-6",
+          "start": 114
+        }
+      ],
+      "utility": 39,
+      "visits": 5
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-3",
+          "site-2",
+          "site-1"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-0",
+          "site-6"
+        ]
+      }
+    ],
+    "scenario": "fixture-22"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 5,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 35,
+          "site": "site-6",
+          "start": 5
+        },
+        {
+          "arrival": 53,
+          "cost_to_date": 8,
+          "day": 0,
+          "finish": 98,
+          "site": "site-4",
+          "start": 53
+        },
+        {
+          "arrival": 27,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 47,
+          "site": "site-2",
+          "start": 27
+        },
+        {
+          "arrival": 51,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 71,
+          "site": "site-5",
+          "start": 51
+        },
+        {
+          "arrival": 79,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 99,
+          "site": "site-1",
+          "start": 79
+        },
+        {
+          "arrival": 107,
+          "cost_to_date": 7,
+          "day": 1,
+          "finish": 137,
+          "site": "site-3",
+          "start": 107
+        }
+      ],
+      "utility": 31,
+      "visits": 6
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-6",
+          "site-4"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-2",
+          "site-5",
+          "site-1",
+          "site-3"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 5,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 35,
+          "site": "site-6",
+          "start": 5
+        },
+        {
+          "arrival": 60,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 125,
+          "site": "site-5",
+          "start": 105
+        },
+        {
+          "arrival": 37,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 57,
+          "site": "site-1",
+          "start": 37
+        },
+        {
+          "arrival": 72,
+          "cost_to_date": 6,
+          "day": 1,
+          "finish": 117,
+          "site": "site-4",
+          "start": 72
+        },
+        {
+          "arrival": 133,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 163,
+          "site": "site-3",
+          "start": 133
+        }
+      ],
+      "utility": 27,
+      "visits": 5
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-6",
+          "site-5"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-1",
+          "site-4",
+          "site-3"
+        ]
+      }
+    ],
+    "scenario": "fixture-23"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 25,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 55,
+          "site": "site-4",
+          "start": 25
+        },
+        {
+          "arrival": 78,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 135,
+          "site": "site-5",
+          "start": 90
+        },
+        {
+          "arrival": 29,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 59,
+          "site": "site-6",
+          "start": 29
+        },
+        {
+          "arrival": 65,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 110,
+          "site": "site-2",
+          "start": 65
+        },
+        {
+          "arrival": 130,
+          "cost_to_date": 6,
+          "day": 1,
+          "finish": 175,
+          "site": "site-3",
+          "start": 130
+        }
+      ],
+      "utility": 48,
+      "visits": 5
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-4",
+          "site-5"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-6",
+          "site-2",
+          "site-3"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 38,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 135,
+          "site": "site-5",
+          "start": 90
+        },
+        {
+          "arrival": 157,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 187,
+          "site": "site-6",
+          "start": 157
+        },
+        {
+          "arrival": 39,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 105,
+          "site": "site-1",
+          "start": 60
+        },
+        {
+          "arrival": 126,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 171,
+          "site": "site-3",
+          "start": 126
+        }
+      ],
+      "utility": 38,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-5",
+          "site-6"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-1",
+          "site-3"
+        ]
+      }
+    ],
+    "scenario": "fixture-24"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 41,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 71,
+          "site": "site-2",
+          "start": 41
+        },
+        {
+          "arrival": 106,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 136,
+          "site": "site-4",
+          "start": 106
+        },
+        {
+          "arrival": 151,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 196,
+          "site": "site-1",
+          "start": 151
+        },
+        {
+          "arrival": 13,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 90,
+          "site": "site-5",
+          "start": 45
+        },
+        {
+          "arrival": 124,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 144,
+          "site": "site-0",
+          "start": 124
+        }
+      ],
+      "utility": 41,
+      "visits": 5
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-2",
+          "site-4",
+          "site-1"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-5",
+          "site-0"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 13,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 58,
+          "site": "site-5",
+          "start": 13
+        },
+        {
+          "arrival": 88,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 118,
+          "site": "site-2",
+          "start": 88
+        },
+        {
+          "arrival": 44,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 80,
+          "site": "site-0",
+          "start": 60
+        },
+        {
+          "arrival": 122,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 167,
+          "site": "site-3",
+          "start": 122
+        }
+      ],
+      "utility": 30,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-5",
+          "site-2"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-0",
+          "site-3"
+        ]
+      }
+    ],
+    "scenario": "fixture-25"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 19,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 50,
+          "site": "site-2",
+          "start": 30
+        },
+        {
+          "arrival": 81,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 126,
+          "site": "site-6",
+          "start": 81
+        },
+        {
+          "arrival": 147,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 192,
+          "site": "site-4",
+          "start": 147
+        },
+        {
+          "arrival": 50,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 95,
+          "site": "site-3",
+          "start": 50
+        },
+        {
+          "arrival": 141,
+          "cost_to_date": 7,
+          "day": 1,
+          "finish": 186,
+          "site": "site-5",
+          "start": 141
+        }
+      ],
+      "utility": 40,
+      "visits": 5
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-2",
+          "site-6",
+          "site-4"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-3",
+          "site-5"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 4,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 75,
+          "site": "site-5",
+          "start": 30
+        },
+        {
+          "arrival": 120,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 165,
+          "site": "site-4",
+          "start": 120
+        },
+        {
+          "arrival": 50,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 95,
+          "site": "site-3",
+          "start": 50
+        },
+        {
+          "arrival": 127,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 147,
+          "site": "site-0",
+          "start": 127
+        }
+      ],
+      "utility": 35,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-5",
+          "site-4"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-3",
+          "site-0"
+        ]
+      }
+    ],
+    "scenario": "fixture-26"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 46,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 66,
+          "site": "site-3",
+          "start": 46
+        },
+        {
+          "arrival": 80,
+          "cost_to_date": 6,
+          "day": 0,
+          "finish": 100,
+          "site": "site-2",
+          "start": 80
+        },
+        {
+          "arrival": 121,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 166,
+          "site": "site-0",
+          "start": 121
+        },
+        {
+          "arrival": 24,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 44,
+          "site": "site-4",
+          "start": 24
+        },
+        {
+          "arrival": 71,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 101,
+          "site": "site-5",
+          "start": 71
+        },
+        {
+          "arrival": 110,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 155,
+          "site": "site-6",
+          "start": 110
+        }
+      ],
+      "utility": 36,
+      "visits": 6
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-3",
+          "site-2",
+          "site-0"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-4",
+          "site-5",
+          "site-6"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 48,
+          "cost_to_date": 1,
+          "day": 0,
+          "finish": 150,
+          "site": "site-0",
+          "start": 105
+        },
+        {
+          "arrival": 24,
+          "cost_to_date": 1,
+          "day": 1,
+          "finish": 44,
+          "site": "site-4",
+          "start": 24
+        },
+        {
+          "arrival": 84,
+          "cost_to_date": 5,
+          "day": 1,
+          "finish": 104,
+          "site": "site-2",
+          "start": 84
+        },
+        {
+          "arrival": 146,
+          "cost_to_date": 8,
+          "day": 1,
+          "finish": 191,
+          "site": "site-6",
+          "start": 146
+        }
+      ],
+      "utility": 26,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-0"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-4",
+          "site-2",
+          "site-6"
+        ]
+      }
+    ],
+    "scenario": "fixture-27"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 45,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 90,
+          "site": "site-5",
+          "start": 45
+        },
+        {
+          "arrival": 108,
+          "cost_to_date": 8,
+          "day": 0,
+          "finish": 128,
+          "site": "site-4",
+          "start": 108
+        },
+        {
+          "arrival": 43,
+          "cost_to_date": 4,
+          "day": 1,
+          "finish": 63,
+          "site": "site-0",
+          "start": 43
+        },
+        {
+          "arrival": 91,
+          "cost_to_date": 7,
+          "day": 1,
+          "finish": 150,
+          "site": "site-1",
+          "start": 105
+        }
+      ],
+      "utility": 33,
+      "visits": 4
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-5",
+          "site-4"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-0",
+          "site-1"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 22,
+          "cost_to_date": 3,
+          "day": 0,
+          "finish": 150,
+          "site": "site-1",
+          "start": 105
+        },
+        {
+          "arrival": 13,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 135,
+          "site": "site-2",
+          "start": 90
+        }
+      ],
+      "utility": 19,
+      "visits": 2
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-1"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-2"
+        ]
+      }
+    ],
+    "scenario": "fixture-28"
+  },
+  {
+    "exact": {
+      "trace": [
+        {
+          "arrival": 31,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 61,
+          "site": "site-2",
+          "start": 31
+        },
+        {
+          "arrival": 74,
+          "cost_to_date": 4,
+          "day": 0,
+          "finish": 135,
+          "site": "site-4",
+          "start": 90
+        },
+        {
+          "arrival": 145,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 175,
+          "site": "site-3",
+          "start": 145
+        },
+        {
+          "arrival": 46,
+          "cost_to_date": 2,
+          "day": 1,
+          "finish": 91,
+          "site": "site-0",
+          "start": 46
+        },
+        {
+          "arrival": 119,
+          "cost_to_date": 6,
+          "day": 1,
+          "finish": 149,
+          "site": "site-1",
+          "start": 119
+        }
+      ],
+      "utility": 35,
+      "visits": 5
+    },
+    "exact_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-2",
+          "site-4",
+          "site-3"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-0",
+          "site-1"
+        ]
+      }
+    ],
+    "greedy": {
+      "trace": [
+        {
+          "arrival": 46,
+          "cost_to_date": 2,
+          "day": 0,
+          "finish": 91,
+          "site": "site-0",
+          "start": 46
+        },
+        {
+          "arrival": 106,
+          "cost_to_date": 5,
+          "day": 0,
+          "finish": 136,
+          "site": "site-3",
+          "start": 106
+        },
+        {
+          "arrival": 146,
+          "cost_to_date": 7,
+          "day": 0,
+          "finish": 191,
+          "site": "site-4",
+          "start": 146
+        },
+        {
+          "arrival": 53,
+          "cost_to_date": 3,
+          "day": 1,
+          "finish": 98,
+          "site": "site-6",
+          "start": 53
+        }
+      ],
+      "utility": 27,
+      "visits": 4
+    },
+    "greedy_plan": [
+      {
+        "day": 0,
+        "route": [
+          "site-0",
+          "site-3",
+          "site-4"
+        ]
+      },
+      {
+        "day": 1,
+        "route": [
+          "site-6"
+        ]
+      }
+    ],
+    "scenario": "fixture-29"
+  }
+]

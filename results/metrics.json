@@ -1,0 +1,13 @@
+{
+  "constraint_violations_returned": 0,
+  "days": 2,
+  "exact_strict_wins": 26,
+  "exact_utility": 1200,
+  "exact_visits": 152,
+  "greedy_utility": 983,
+  "greedy_visits": 119,
+  "scenarios": 30,
+  "scope": "Bounded deterministic itinerary optimization, not live scheduling or business ROI.",
+  "sites_per_scenario": 7,
+  "utility_unit": "original fictional site priority points"
+}
